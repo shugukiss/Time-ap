@@ -1,0 +1,8 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+@layer components{
+body{@apply bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100}
+.card{@apply bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 shadow-sm}
+.btn{@apply bg-blue-600 text-white rounded-lg px-4 py-2 font-medium disabled:opacity-50}
+.btn2{@apply border border-slate-300 dark:border-slate-700 rounded-lg px-3 py-1.5 text-sm}
+.inp{@apply w-full rounded-lg border border-slate-300 dark:border-slate-700 bg-transparent px-3 py-2}
+.mu{@apply text-sm text-slate-500 dark:text-slate-400}}
